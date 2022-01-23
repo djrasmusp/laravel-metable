@@ -17,7 +17,7 @@ class CreateMetaTable extends Migration
             Schema::create('meta', function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('metable_type');
-                $table->unsignedInteger('metable_id');
+                $table->unsignedBigInteger('metable_id');
                 $table->string('type')->default('null');
                 $table->string('key')->index();
                 $table->longtext('value');
