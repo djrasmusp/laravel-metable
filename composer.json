@@ -7,6 +7,10 @@
         {
             "name": "Sean Fraser",
             "email": "sean@plankdesign.com"
+        },
+        {
+            "name": "Rasmus P",
+            "email": "hello@rasmusp.com"
         }
     ],
     "autoload": {
